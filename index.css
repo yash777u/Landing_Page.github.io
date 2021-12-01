@@ -1,0 +1,102 @@
+.showcase {
+    background-image: url(http://traversymedia.com/downloads/assets/beachshowcase.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: -7.65px;
+    width: 100%;
+    margin-left: -6.7px;
+}
+
+h1{
+    color: #926239;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 1.2;
+    font-weight: bolder;
+}
+
+.showcase p{
+    color: #926239;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -27px;
+}
+
+.showcase .Button {
+    font-size: 20px;
+    text-decoration: none;
+    color: #926239;
+    border: #926239 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+.showcase .Button:hover{
+    color: white;
+    background-color: #926239;
+}
+
+.section1 {
+    padding: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background: #926239;
+    color: #fff;
+    width: 100%;
+}
+
+.section1 p{
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    padding-top: -5px;
+
+}
+
+.section2{
+    padding: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: white;
+    color: #926239;
+
+}
+
+.section2 p{
+    text-align: center;
+    display: block;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    padding-top: -5px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    padding-top: -5px;
+    text-align: left;
+    margin-left: -6.5px;
+    margin-right: -6.5px;
+}
